@@ -1,4 +1,4 @@
-const CACHE = 'ghennai-v6'
+const CACHE = 'ghennai-v7'
 const PRECACHE = ['/', '/manifest.webmanifest', '/favicon.svg']
 
 self.addEventListener('install', (e) => {
