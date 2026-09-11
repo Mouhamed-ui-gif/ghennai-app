@@ -1,5 +1,5 @@
-const CACHE = 'ghennai-v7'
-const PRECACHE = ['/', '/manifest.webmanifest', '/favicon.svg']
+const CACHE = 'ghennai-v8'
+const PRECACHE = ['./', './manifest.webmanifest', './favicon.svg']
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(PRECACHE).catch(() => {})))
