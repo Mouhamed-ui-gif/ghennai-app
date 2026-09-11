@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mouhamed-ui-gif.github.io/ghennai-app/sitemap.xml
+Sitemap: https://ghennai.onrender.com/sitemap.xml
